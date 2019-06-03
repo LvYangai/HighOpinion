@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorViewBg">
+
+            <android.support.v7.widget.Toolbar
+                style="@style/AppTheme.Toolbar"
+                android:id="@+id/web_toolbar"
+                app:navigationIcon="?attr/homeAsUpIndicator"
+                app:title="WebView"/>
+            <com.scwang.smartrefresh.layout.SmartRefreshLayout
+                android:id="@+id/web_refreshLayout"
+                android:layout_width="match_parent"
+                app:srlHeaderHeight="25dp"
+                app:srlHeaderMaxDragRate="31"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textColor="#aaa"
+                    android:textSize="16sp"
+                    android:text="下拉刷新"
+                    app:layout_srlSpinnerStyle="FixedBehind"/>
+                <ezy.ui.layout.LoadingLayout
+                    android:id="@+id/web_loading"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <WebView
+                        android:id="@+id/webView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipToPadding="false"
+                        android:paddingTop="?attr/actionBarSize"/>
+                </ezy.ui.layout.LoadingLayout>
+
+            </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="50dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="50dp">
+                <ImageView
+                    android:src="@mipmap/web_look_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:id="@+id/web_click_number"
+                    android:gravity="center"
+                    android:textColor="@color/black_45_trans40"
+                    android:textSize="12sp"
+                    android:text="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/web_btn_comm"
+                android:padding="3dp"
+                android:src="@mipmap/icon_page_comm"
+                android:alpha="0.8"
+                android:layout_margin="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <com.like.LikeButton
+                android:layout_margin="5dp"
+                android:id="@+id/web_btn_favour"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:anim_scale_factor="3"
+                android:alpha="0.8"
+                app:icon_size="42dp"
+                app:circle_end_color="@color/secondItemBg"
+                app:circle_start_color="@color/iconFavour"
+                app:dots_primary_color="@color/iconFavour"
+                app:dots_secondary_color="@color/iconFavour"
+                app:like_drawable="@mipmap/icon_favour_on"
+                app:unlike_drawable="@mipmap/icon_favour_off"
+                app:icon_type="heart" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</layout>

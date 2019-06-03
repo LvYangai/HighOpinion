@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/video_toolbar"
+            style="@style/AppTheme.Toolbar">
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:padding="5dp"
+                    android:id="@+id/video_toolbar_canel"
+                    android:text="取消"
+                    android:textSize="18sp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/white_trans_80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/video_toolbar_title"
+                    android:text="短视频"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/white_trans_80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:padding="5dp"
+                    android:id="@+id/video_toolbar_upPage"
+                    android:text="发布"
+                    android:textSize="18sp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/white_trans_80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+        <RelativeLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <ImageView
+                android:id="@+id/up_title_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:layout_width="130dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/up_video_pricker_image"
+                    android:src="@mipmap/title_page_icon"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+                <TextView
+                    android:textSize="16sp"
+                    android:text="添加封面"
+                    android:gravity="center"
+                    android:textColor="#bfbfbf"
+                    android:layout_width="130dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View
+            android:background="@color/secondItemBg"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+            <LinearLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="0px"
+                android:layout_height="0px"/>
+            <EditText
+                android:id="@+id/up_video_title"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scrollbars="vertical"
+                android:layout_margin="8dp"
+                android:singleLine="false"
+                android:inputType="textMultiLine"
+                android:imeOptions="actionDone"
+                android:background="#30eeeeee"
+                android:gravity="left|top"
+                android:textColorHint="#aaa"
+                android:hint="在这里描述一下视频~" >
+            </EditText>
+
+        </LinearLayout>
+        <Button
+            style="@style/Button.Primary"
+            android:id="@+id/up_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:text="选取视频"
+            android:textSize="18dp"  />
+       <LinearLayout
+           android:layout_margin="10dp"
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <ImageView
+               android:id="@+id/up_video_select"
+               android:layout_width="200dp"
+               android:layout_height="match_parent" />
+       </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

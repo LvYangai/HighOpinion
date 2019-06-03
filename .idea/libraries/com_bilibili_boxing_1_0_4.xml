@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.bilibili:boxing-1.0.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/boxing-1.0.4.aar/99b64273fed9b96e490a56b261cc3bc1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/boxing-1.0.4.aar/99b64273fed9b96e490a56b261cc3bc1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bilibili/boxing/1.0.4/5dbf36e64baadac51ba3c9d8c4f3d51aba729715/boxing-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

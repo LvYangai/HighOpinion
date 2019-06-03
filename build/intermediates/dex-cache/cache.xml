@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\c7c647983145ade60c04cd970607f926\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4d2b8ad415048e88b41ba4afcaafe36150e69b8c">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\3.0.1\baseLibrary-3.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="915f7f0c560968a3d7bfac7456ad7a0d3a974b39">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c20e9b34cd6a28aca925b18bc81d763d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ec657bb192b20229696216bf233779b16bf75a54">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\9a506d580290cc12d544f97ed2aeed4f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7038c6d960d3fe26fd41bc509f256c9692d886ce">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\accb4ac4acf0fa79294995c21965e4c0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="68956f5ba1517b7a3d513ba540548e257741cbae">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\permission-1.1.2.aar\089fdd54f1e33b338aed05f51da4ef7d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b0f2a353658d4d973cae8ba3e37695c8c71898df">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\alertdialog-1.0.1.aar\a84451556fc37039c31f614f9a14a6ab\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="284e4a41a5b9f1b8c97b16b685af7b99724bca2d">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\1f6441c134af02de50cb2a342eddae04\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cd43d71aaa1a0cffd99bd105acd1fe0454ace4dd">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.1.0-alpha-24.aar\943225022ea5e045422b238a6619584e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="30644ea3c87c249830e55a7e9470154197c39854">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\OneDrive\GitHub\HighOpinion\app\libs\lite-orm-1.9.2.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7691b96fd27f2991cb4779c22f9089bf268945c8">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a56424e47f22fdc7657d370b51473e59\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2feadd535770271ca57b7b431f42151aa4af324a">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.2.3\f829e7c489f5b3586bca2199c9017a6d6e1e01be\rxjava-2.2.3.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f829e7c489f5b3586bca2199c9017a6d6e1e01be">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\palette-v7-25.0.0.aar\a4e78899ce2eaf01c5b9e3a80e480b75\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="672cceae26e9a8fcbd8e0eefe5fc351c50d2488a">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\55dea125ecc541ce3195b0439d53e9c6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88c68e5ef7c5ace393d014c9ec5fe736b1ca55cf">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.1\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.1.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\e462f2ad0ef2960cc39ec18d33803824\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ae6d33f37143b08cd8c477c9e348d61ef7ed7eba">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\c5d05665d92aba513b8c24d60f0e8b90\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="874f1143c11f5d38533efe512bf913e3e847e7df">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\85689ba551a45392dabecb93c5e0da98\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3304d33470ff64cf83bce9189ff3648a42eb2aa7">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\1c09318ba430be04054f00bea3e11c85\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\a907498b47ab88f542984eaf1ff91106\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c9a721adcd7dbae7a197b0ef81102336539f63ff">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.1.0-alpha-24.aar\bc9ae0f195bb16a758bc4f7c8e918206\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="867e8f054e0750132a773f481123f91636fbd62d">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.3\bde0667d7414c16ed62d3cfe993cff7f9d732373\constraint-layout-solver-1.1.3.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bde0667d7414c16ed62d3cfe993cff7f9d732373">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\2b269c3802de2c4f96e1d8f35b3d83b7\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="221de83c08ed1502286513b4d472d256341e8839">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\disklrucache\4.8.0\a7448551cb3edd61bcf3d1b1136b670e630441cf\disklrucache-4.8.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a7448551cb3edd61bcf3d1b1136b670e630441cf">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.10.0\7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e\okhttp-3.10.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.14.0\102d7be47241d781ef95f1581d414b0943053130\okio-1.14.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="102d7be47241d781ef95f1581d414b0943053130">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\e630b6b0b51e5acfde6ed20afb15e2b3\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d968b9bd0011800e0d333d1571b8d34bcb8a0b6e">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.10.0\55f574ec622f65ac9c0e2e922d3ffa01dc4f139e\logging-interceptor-3.10.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="55f574ec622f65ac9c0e2e922d3ffa01dc4f139e">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\952b002e0485353bc7663ab4d5eed3ca\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\95a6bf4d6629ed80aa9bb8a12de3cc47\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7f2f348b830f292429db987f74ba3e67c6752322">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\rxandroid-2.1.0.aar\0ca046e2d8553a8bdab0bdc9c0b57058\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="37d3f9a065d98926697160993997927884e630f2">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\annotations\4.8.0\c4c9e79eb2bfeb9059fce55020c6b237402285f6\annotations-4.8.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4c9e79eb2bfeb9059fce55020c6b237402285f6">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c3ad4fdbd4acac1aff41f204a3209496\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\56ed77f0fe87ebbccbff26d4fa2c5fa1\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b15c6ded887ad967e20bb335c1a121b253c04dce">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\65fa7ab8661b8008ceec95a3e1c183a5\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="23dcb4803d3103bde3f3f5db978a726338fe49ae">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7fa0b819ecbaff3152c43b00b9e11115\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\676a9269da4acc506cee515e33f8ee6c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e70a3fed299d84cd868614e11021664d72b8e488">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\ijkplayer-java-0.8.8.aar\aecf46b38d39460869d8abf21ba8c814\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7bda42289496a824fac790960a80810bc7411acb">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.2\323964c36556eb0e6209f65c1cef72b53b461ab8\reactive-streams-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="323964c36556eb0e6209f65c1cef72b53b461ab8">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LYG-Pro\.gradle\caches\transforms-1\files-1.1\shadowimageview-1.0.4.aar\2e7c53f118a2b4d39c69cf11837bb25c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="640d87908c60b60754bd5eeae96ca5b28a522a54">
+        <dex dex="E:\OneDrive\GitHub\HighOpinion\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+
+</items>

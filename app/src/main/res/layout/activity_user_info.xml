@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:id="@+id/user_info_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                style="@style/AppTheme.Toolbar"
+                android:id="@+id/user_info_toolbar"
+                app:navigationIcon="?attr/homeAsUpIndicator"
+                app:title="个人信息"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_below="@+id/user_info_top"
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/white_trans_80">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/my_info_icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_launcher" />
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/my_info_icon"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="点击修改头像" />-->
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/r2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/r1"
+            android:layout_marginTop="20dp"
+            android:background="#fff">
+
+
+            <TextView
+                android:id="@+id/info_value1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="昵称"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/edit_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/info_value1"
+                android:layout_marginLeft="120dp"
+                android:background="@null"
+                android:text="BGM1"
+                android:textColor="@color/gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sex_incon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edit_name"
+                android:layout_alignTop="@+id/info_value2"
+                android:textSize="18sp"
+                android:text="15577744455"
+                android:layout_alignBottom="@+id/info_value2"
+                android:layout_marginLeft="-5dp"
+                />
+
+
+
+
+            <TextView
+                android:id="@+id/info_value2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/info_value1"
+                android:layout_alignLeft="@+id/info_value1"
+                android:layout_marginTop="20dp"
+                android:text="手机号"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/info_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edit_name"
+                android:layout_alignTop="@+id/info_value3"
+                android:layout_alignBottom="@+id/info_value3"
+                android:gravity="center"
+                android:text="普通用户"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/info_value3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/info_value2"
+                android:layout_alignLeft="@+id/info_value1"
+                android:layout_marginTop="20dp"
+                android:text="权限"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/info_value4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/info_value3"
+                android:layout_alignLeft="@+id/info_value1"
+                android:layout_marginTop="20dp"
+                android:text="注册时间"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/info_jieshao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/info_value3"
+                android:layout_alignLeft="@+id/edit_name"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/gray"
+                android:background="@null"
+                android:text="2019-05-26 00:46:53"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</layout>

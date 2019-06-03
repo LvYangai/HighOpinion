@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F3C51</color>
+    <color name="colorPrimaryDark">#4a4858</color>
+    <color name="colorPrimaryOverlay">#cc4a4858</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="myWebView">#3F3C51</color>
+    <color name="myPrimary">#FF307F</color>
+    <color name="myPrimaryDark">#FFA544</color>
+    <color name="myPrimaryOverlay">#FFFC56</color>
+    <color name="myAccent">#3AF4D5</color>
+
+
+    <color name="my_black">#313133</color>
+    <color name="my_hint">#E7E7E7</color>
+    <color name="white">#ffffff</color>
+    <color name="white_light">#33ffffff</color>
+    <color name="white_trans_80">#CCFFFFFF</color>
+    <color name="black_45_trans40">#66313133</color>
+    <color name="colorViewBg">#f9fbfd</color>
+    <color name="black_effective">#2A2A2A</color>
+    <color name="light_gray">#DBDBDB</color>
+    <!--红色文字-->
+    <color name="colorTextRed">#ff5363</color>
+
+    <color name="gray">#7E7E7E</color>
+    <color name="colorTextAssistant">#888888</color>
+    <color name="mylistView">#4da5a5a5</color>
+    <color name="secondItemBg">#37e7e7e7</color>
+    <color name="iconFavour">#f4ea2a</color>
+    <color name="colorDivision">#33aaaaaa</color>
+    <color name="fontBlack">#eb313133</color>
+    <color name="shadow">#D0D8DC</color>
+
+    <!--
+
+    //白色
+    ＃F5F7FA     RGBA（245,247,250,1）
+
+    ＃FF307F     RGBA（255,48,127,1）
+    ＃FFA544     RGBA（255,165,68,1）
+    ＃FFFC56     RGBA（255,252,86,1）
+    ＃3AF4D5     RGBA（58,244,213,1）
+    -->
+
+</resources>

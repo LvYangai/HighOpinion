@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">爱Share</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item_example_number_title">第%02d条数据</string>
+    <string name="item_example_number_abstract">这是测试的第%02d条数据</string>
+</resources>

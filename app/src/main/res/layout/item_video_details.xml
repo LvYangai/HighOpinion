@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/my_black">
+
+    <com.lvyangai.highopinion.view.VideoTouchView
+        android:id="@+id/videoTouchView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+        <com.lvyangai.highopinion.view.PlayTextureView
+            android:id="@+id/playTextureView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/iv_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+    </com.lvyangai.highopinion.view.VideoTouchView>
+
+    <ProgressBar
+        android:id="@+id/pb_video"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:indeterminateTint="@color/white"
+        android:layout_centerInParent="true" />
+
+    <ProgressBar
+        android:id="@+id/pb_play_progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:max="100"
+        android:background="@drawable/progressbar_with_buffer" />
+
+    <TextView
+        android:id="@+id/tv_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textSize="@dimen/title_size3"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp" />
+
+    <ImageView
+        android:id="@+id/iv_like_animation"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"/>
+    <ImageView
+        android:id="@+id/iv_stop_or_start"
+        android:layout_width="70dp"
+        android:visibility="invisible"
+        android:layout_height="70dp"
+        android:alpha="0.6"
+        android:src="@mipmap/ijkplayer_stop"
+        android:layout_centerInParent="true"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_change_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@color/black_45_trans40">
+        <ImageView
+            android:id="@+id/iv_change_progress"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/video_fast_forward"/>
+        <TextView
+            android:id="@+id/tv_change_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title_size2"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_below="@id/iv_change_progress"
+            android:text="00:00 / 00:00"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:id="@+id/iv_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_size2"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size3"
+            android:layout_marginTop="9dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:layout_above="@+id/iv_bottom"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_avatar"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2dp"
+                android:layout_width="45dp"
+
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.like.LikeButton
+                android:id="@+id/iv_user_like"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:anim_scale_factor="3"
+                android:alpha="0.8"
+                app:icon_size="38dp"
+                app:circle_end_color="@color/myPrimary"
+                app:circle_start_color="@color/myPrimary"
+                app:dots_primary_color="@color/myPrimary"
+                app:dots_secondary_color="@color/myPrimary"
+                app:like_drawable="@mipmap/icon_like_on"
+                app:unlike_drawable="@mipmap/icon_like_off"
+                app:icon_type="heart" />
+            <TextView
+                android:alpha="0.7"
+                android:text="121"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:id="@+id/iv_user_like_number"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_user_comm"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:alpha="0.7"
+                android:src="@mipmap/icon_comm"
+                />
+            <TextView
+                android:alpha="0.7"
+                android:layout_marginTop="1dp"
+                android:id="@+id/iv_user_comm_number"
+                android:singleLine="true"
+                android:text="120"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

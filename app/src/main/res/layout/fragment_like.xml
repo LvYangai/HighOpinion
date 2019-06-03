@@ -1,0 +1,30 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <com.lvyangai.highopinion.magicindicator.MagicIndicator
+               android:id="@+id/frag_like_magic_indicator"
+               android:layout_width="wrap_content"
+               android:layout_height="45dp"
+               android:layout_gravity="center_horizontal" />
+
+       </LinearLayout>
+
+       <android.support.v4.view.ViewPager
+           android:id="@+id/frag_like_view_pager"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+       </android.support.v4.view.ViewPager>
+   </LinearLayout>
+
+</layout>

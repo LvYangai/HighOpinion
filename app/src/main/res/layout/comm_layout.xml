@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#dc1d1e1e"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:text="评论"
+            android:textColor="@color/my_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/comm_refreshLayout"
+            android:layout_above="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.scwang.smartrefresh.header.WaterDropHeader
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/comm_recycler"
+                tools:listitem="@layout/item_comm"
+                android:layout_height="match_parent">
+
+            </android.support.v7.widget.RecyclerView>
+            <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srlClassicsSpinnerStyle="Translate"/>
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:background="#dc1d1e1e"
+            android:gravity="center_vertical"
+            android:paddingTop="5dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/comm_edit"
+                android:background="@drawable/input_edit"
+                android:layout_width="0dp"
+                android:textSize="20sp"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:hint=" 说点什么吧~"
+                android:maxEms="120"
+                android:maxLines="3"
+                android:imeOptions="actionDone"
+                android:scrollbars="vertical"
+                android:textColor="@color/my_black"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="3dp"
+                android:src="@mipmap/comm_send"
+                android:id="@+id/comm_send"
+                android:layout_width="80dp"
+                android:layout_height="35dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

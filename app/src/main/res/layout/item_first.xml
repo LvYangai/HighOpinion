@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.lvyangai.highopinion.view.RoundImageView
+            android:src="@mipmap/bg_1"
+            android:id="@+id/item_first_image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            />
+        <TextView
+            android:id="@+id/item_first_title"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/my_black"
+            android:layout_marginBottom="5dp"
+            android:text="放费咖啡机垃圾jfk拉萨解放了覅发贺卡贺卡大家ask良好的就撒谎法华经法华经法华经啊房间萨里还放假啊随机发货就卡死的后果快捷键啊看凡是看就放假咯加分"
+            android:layout_width="match_parent"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:ellipsize="end"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/item_first_date"
+                android:text="2019.05.10"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="25dp" />
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:gravity="center|right"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:background="@mipmap/icon_user"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:id="@+id/item_first_user"
+                        android:text="admin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center|right"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:background="@mipmap/icon_hot"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                    <TextView
+                        android:id="@+id/item_first_hot"
+                        android:text="99+"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_marginTop="3dp"
+            android:background="@color/mylistView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    </LinearLayout>
+</LinearLayout>

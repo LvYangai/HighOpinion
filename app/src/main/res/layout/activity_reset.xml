@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/activity_forget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:id="@+id/reset_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                style="@style/AppTheme.Toolbar"
+                android:id="@+id/reset_toolbar"
+                app:navigationIcon="?attr/homeAsUpIndicator"
+                app:title="重置密码"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/reset_top"
+            android:id="@+id/reset_title"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <android.support.v7.widget.CardView
+            style="@style/cardElevation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="7dp">
+            <LinearLayout
+                android:layout_below="@+id/reset_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/TextStyle.Heading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="40dp"
+                    android:text="重置密码"
+                    android:textAllCaps="true"
+                    android:textSize="20sp" />
+                <LinearLayout
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="0px"
+                    android:layout_height="0px"/>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="输入新密码"
+                    android:id="@+id/forget_prompt"
+                    android:textColorHint="@color/gray"
+                    app:errorTextAppearance="@style/TextAppearance.App.TextInputLayoutError"
+                    app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+                    android:cursorVisible="true"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center|left|bottom"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                    <android.support.design.widget.TextInputEditText
+                        android:paddingBottom="7dp"
+                        android:paddingTop="7dp"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        style="@style/TextStyle"
+                        android:background="@drawable/input_border_bottom"
+                        android:id="@+id/reset_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/forget_prompt2"
+                    android:hint="请再次输入密码"
+                    android:textColorHint="@color/gray"
+                    app:errorTextAppearance="@style/TextAppearance.App.TextInputLayoutError"
+                    app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+                    android:cursorVisible="true"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:gravity="center|left|bottom"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                    <android.support.design.widget.TextInputEditText
+                        android:paddingBottom="7dp"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionDone"
+                        android:paddingTop="7dp"
+                        style="@style/TextStyle"
+                        android:background="@drawable/input_border_bottom"
+                        android:id="@+id/reset_password2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <Button
+                    android:id="@+id/reset_btn"
+                    style="@style/Button.Primary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:text="重置密码"
+                    android:textSize="18dp" />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</layout>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/activity_with_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/home_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/homepage_bottom_navigation" />
+            <android.support.design.widget.BottomNavigationView
+                android:layout_alignParentBottom="true"
+                android:id="@+id/homepage_bottom_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:itemIconTint="@color/navi_icon_select"
+                app:itemTextColor="@color/navi_text_select"
+                android:background="?android:attr/windowBackground"
+                app:menu="@menu/navigation" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/fab"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="12dp"
+                android:src="@mipmap/ic_tab_add"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

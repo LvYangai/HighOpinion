@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/iv_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:paddingBottom="100dp"
+            android:id="@+id/tvTaobao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="发布视频"
+            android:textColor="@android:color/white"
+            android:layout_above="@+id/dd5"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="80dp" />
+
+        <TextView
+            android:id="@+id/tvPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/dd5"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:paddingBottom="100dp"
+            android:paddingLeft="80dp"
+            android:text="发布文章"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true" />
+
+        <ImageView
+            android:id="@+id/iv_push_resale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/push_page"
+            android:visibility="invisible"
+            android:layout_above="@+id/tvPhoto"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="55dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="55dp" />
+
+        <ImageView
+
+            android:visibility="invisible"
+            android:id="@+id/iv_push_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/push_video"
+            android:layout_above="@+id/tvTaobao"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="55dp" />
+
+        <ImageView
+            android:id="@+id/iv_push_photo_faker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/iv_push_resale_faker"
+            android:layout_alignTop="@+id/iv_push_resale_faker"
+            android:background="@mipmap/push_video"
+            android:visibility="invisible"
+            android:layout_alignLeft="@+id/iv_push_resale_faker" />
+
+        <ImageView
+            android:id="@+id/iv_push_resale_faker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvnull"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/push_page"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/dd5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_above="@+id/tvnull"
+            android:src="@mipmap/ic_tab_add"
+            />
+
+        <TextView
+            android:id="@+id/tvnull"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
