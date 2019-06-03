@@ -56,7 +56,6 @@ public class UpPageActivity extends BaseActivity implements UpPageContract.upPag
     private UpPagePresenter presenter;
     ArrayList<BaseMedia> medias;
 
-
     @Override
     protected void initView() {
         context = this;
