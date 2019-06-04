@@ -100,6 +100,16 @@ public class PageItemBean {
         private int page_comment;
         private int page_top;
         private int page_recommended;
+        private String page_type;
+
+        public String getPage_type() {
+            return page_type;
+        }
+
+
+        public void setPage_type(String page_type) {
+            this.page_type = page_type;
+        }
 
         public int getId() {
             return id;

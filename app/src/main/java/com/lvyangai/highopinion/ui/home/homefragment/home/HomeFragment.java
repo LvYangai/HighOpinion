@@ -2,6 +2,7 @@ package com.lvyangai.highopinion.ui.home.homefragment.home;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -10,6 +11,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -39,6 +41,8 @@ import com.lvyangai.highopinion.magicindicator.ext.titles.ScaleTransitionPagerTi
 import com.lvyangai.highopinion.ui.home.homefragment.home.first.FirstFragment;
 import com.lvyangai.highopinion.ui.home.homefragment.home.second.SecondFragment;
 import com.lvyangai.highopinion.ui.home.homefragment.home.third.ThirdFragment;
+import com.lvyangai.highopinion.ui.home.search.SearchActivity;
+import com.lvyangai.highopinion.ui.web.WebActivity;
 import com.lvyangai.highopinion.util.StatusBarUtil;
 import com.lvyangai.highopinion.util.ToastUtil;
 import com.wyt.searchbox.SearchFragment;
@@ -103,7 +107,14 @@ public class HomeFragment extends BaseParentFragment implements View.OnClickList
         searchFragment.setOnSearchClickListener(new IOnSearchClickListener() {
             @Override
             public void OnSearchClick(String keyword) {
-                ToastUtil.showShortToast("sousuo:"+keyword);
+                if (TextUtils.isEmpty(keyword.trim())){
+                    ToastUtil.showShortToast("请输入关键字");
+                }else {
+                    Intent intent = new Intent(context, SearchActivity.class);
+                    intent.putExtra("INTENT_KEY_WORD",keyword);
+                    startActivity(intent);
+                }
+
             }
         });
         initMagicIndicator();

@@ -3,6 +3,7 @@ package com.lvyangai.highopinion.ui.home.homefragment.home.second;
 import com.lvyangai.highopinion.bean.PageItemBean;
 import com.lvyangai.highopinion.data.Api;
 import com.lvyangai.highopinion.data.App;
+import com.lvyangai.highopinion.ui.home.search.SearchContract;
 
 import java.util.concurrent.TimeUnit;
 

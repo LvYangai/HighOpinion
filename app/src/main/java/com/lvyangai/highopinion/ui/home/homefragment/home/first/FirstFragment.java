@@ -20,6 +20,7 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
+import com.lvyangai.highopinion.MyApplication;
 import com.lvyangai.highopinion.R;
 import com.lvyangai.highopinion.activity.BaseLazyFragment;
 import com.lvyangai.highopinion.bean.PageItemBean;
@@ -44,7 +45,7 @@ import retrofit2.Response;
 public class FirstFragment extends BaseLazyFragment implements FirstContract.fitstView{
 
     private static int index = 0;
-    private static final int ITEM_COUNT = 5; // 每次加载多少item
+    private static final int ITEM_COUNT = 15; // 每次加载多少item
     private MZBannerView mMZBannerView;
     private FragmentFirstBinding binding;
     private static final String TAG = "FirstFragment";
@@ -153,11 +154,11 @@ public class FirstFragment extends BaseLazyFragment implements FirstContract.fit
             public void onPageClick(View view, int position) {
                 Intent intent = new Intent(context, WebActivity.class);
                 intent.putExtra("intent_web_url", itemList.get(position).getTop_url());
-                intent.putExtra("intent_web_title", dataList.get(position).getPage_title());
-                intent.putExtra("intent_web_userid", dataList.get(position).getPage_author());
-                intent.putExtra("intent_web_isLike", dataList.get(position).getPage_isLike());
-                intent.putExtra("intent_web_clickLike", dataList.get(position).getPage_click());
-                intent.putExtra("intent_web_pageId", dataList.get(position).getId());
+                intent.putExtra("intent_web_title", itemList.get(position).getTop_title());
+                intent.putExtra("intent_web_userid", MyApplication.getUserid());
+                intent.putExtra("intent_web_isLike", false);
+                intent.putExtra("intent_web_clickLike", itemList.get(position).getTop_click());
+                intent.putExtra("intent_web_pageId", itemList.get(position).getTop_pageId());
                 startActivity(intent);
             }
         });

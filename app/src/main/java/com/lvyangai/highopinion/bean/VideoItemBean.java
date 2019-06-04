@@ -86,6 +86,20 @@ public class VideoItemBean implements Serializable {
         private int video_comment;
         private int video_page_id;
 
+        public VideoBean(int id, boolean post_is_like, String post_user, String post_icon, String video_title, String video_url, String video_thumb, String video_date, int video_like, int video_comment, int video_page_id) {
+            this.id = id;
+            this.post_is_like = post_is_like;
+            this.post_user = post_user;
+            this.post_icon = post_icon;
+            this.video_title = video_title;
+            this.video_url = video_url;
+            this.video_thumb = video_thumb;
+            this.video_date = video_date;
+            this.video_like = video_like;
+            this.video_comment = video_comment;
+            this.video_page_id = video_page_id;
+        }
+
         public int getId() {
             return id;
         }

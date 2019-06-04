@@ -109,4 +109,9 @@ public interface Api {
     Call<ClickLikeBean> upComm(@Field("commtype") String type,@Field("commuid") int userId,
                                  @Field("commpageid") int pageId,@Field("commcontent") String commContent);
 
+    //搜索
+    @FormUrlEncoded
+    @POST("getSearch")
+    Call<PageItemBean> getSearch(@Field("keywords") String keywords,@Field("userid") int userId);
+
 }
