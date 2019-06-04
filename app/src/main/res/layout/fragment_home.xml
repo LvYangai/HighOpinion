@@ -15,14 +15,22 @@
                 android:focusableInTouchMode="true"
                 android:layout_width="0px"
                 android:layout_height="0px"/>
-            <RelativeLayout
+            <LinearLayout
+                android:orientation="horizontal"
                 android:gravity="center_vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+                <ImageView
+                   android:layout_marginTop="3dp"
+                    android:src="@mipmap/search_logo"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp" />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:hint="搜索"
+                    android:hint="  搜索关键字"
+
                     android:textColorHint="@color/gray"
                     app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
 
@@ -33,6 +41,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:focusable="false"
+                        android:drawablePadding="2dp"
                         android:layout_marginRight="20dp"
                         android:background="@drawable/input_border_bottom"
                         android:cursorVisible="true"
@@ -44,8 +53,15 @@
                         android:textSize="18sp" />
 
                 </android.support.design.widget.TextInputLayout>
+                <ImageView
+                    android:id="@+id/search_click"
+                    android:layout_marginTop="4dp"
+                    android:src="@mipmap/home_click_search"
+                    android:layout_width="38dp"
+                    android:padding="4dp"
+                    android:layout_height="38dp" />
 
-            </RelativeLayout>
+            </LinearLayout>
         </android.support.v7.widget.Toolbar>
         <LinearLayout
             android:layout_width="match_parent"

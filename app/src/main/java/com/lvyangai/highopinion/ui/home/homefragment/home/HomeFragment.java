@@ -104,6 +104,7 @@ public class HomeFragment extends BaseParentFragment implements View.OnClickList
         binding.fragHomeViewPager.setOffscreenPageLimit(10);
         searchFragment = SearchFragment.newInstance();
         binding.homeSearch.setOnClickListener(this);
+        binding.searchClick.setOnClickListener(this);
         searchFragment.setOnSearchClickListener(new IOnSearchClickListener() {
             @Override
             public void OnSearchClick(String keyword) {
@@ -198,6 +199,9 @@ public class HomeFragment extends BaseParentFragment implements View.OnClickList
         switch (v.getId()){
             case R.id.home_search:
                     searchFragment.showFragment(getChildFragmentManager(), SearchFragment.TAG);
+                break;
+            case R.id.search_click:
+                searchFragment.showFragment(getChildFragmentManager(), SearchFragment.TAG);
                 break;
         }
     }
