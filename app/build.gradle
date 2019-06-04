@@ -84,4 +84,6 @@ dependencies {
     compile 'com.rengwuxian.materialedittext:library:2.1.4'
     //spinner
     implementation 'com.github.arcadefire:nice-spinner:1.3.5'
+    //仿bilibili搜索
+    implementation 'com.wenwenwen888:searchbox:1.0.1'
 }

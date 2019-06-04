@@ -40,6 +40,9 @@ import com.lvyangai.highopinion.ui.home.homefragment.home.first.FirstFragment;
 import com.lvyangai.highopinion.ui.home.homefragment.home.second.SecondFragment;
 import com.lvyangai.highopinion.ui.home.homefragment.home.third.ThirdFragment;
 import com.lvyangai.highopinion.util.StatusBarUtil;
+import com.lvyangai.highopinion.util.ToastUtil;
+import com.wyt.searchbox.SearchFragment;
+import com.wyt.searchbox.custom.IOnSearchClickListener;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -48,7 +51,7 @@ import java.util.List;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class HomeFragment extends BaseParentFragment {
+public class HomeFragment extends BaseParentFragment implements View.OnClickListener {
 
     private FragmentHomeBinding binding;
     private static final String TAG = "HomeFragment";
@@ -57,6 +60,7 @@ public class HomeFragment extends BaseParentFragment {
     private List<Fragment> fragmentList;
     private static final String[] CHANNELS = new String[]{"推荐", "近期热门", "生活","数码","家居","美妆","宠物","电影","其他","最新"};
     private List<String> mDataList;
+    private SearchFragment searchFragment;
     private ExampleFragmentAdapter homeAdapter;
     public HomeFragment() {
         // Required empty public constructor
@@ -94,6 +98,14 @@ public class HomeFragment extends BaseParentFragment {
         homeAdapter = new ExampleFragmentAdapter(getChildFragmentManager(),fragmentList,mDataList);
         binding.fragHomeViewPager.setAdapter(homeAdapter);
         binding.fragHomeViewPager.setOffscreenPageLimit(10);
+        searchFragment = SearchFragment.newInstance();
+        binding.homeSearch.setOnClickListener(this);
+        searchFragment.setOnSearchClickListener(new IOnSearchClickListener() {
+            @Override
+            public void OnSearchClick(String keyword) {
+                ToastUtil.showShortToast("sousuo:"+keyword);
+            }
+        });
         initMagicIndicator();
     }
 
@@ -169,5 +181,14 @@ public class HomeFragment extends BaseParentFragment {
         Toast.makeText(getActivity(),""+str,Toast.LENGTH_SHORT).show();
     }
 
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.home_search:
+                    searchFragment.showFragment(getChildFragmentManager(), SearchFragment.TAG);
+                break;
+        }
+    }
 
 }
