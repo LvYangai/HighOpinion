@@ -25,9 +25,15 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:screenOrientation="portrait" android:name=".activity.MainActivity" />
-        <activity android:screenOrientation="portrait" android:name=".activity.VideoDetailsActivity" />
-        <activity android:screenOrientation="portrait" android:name=".activity.VideoSearchActivity" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.VideoDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.VideoSearchActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.home.homeactivity.HomeActivity"
             android:screenOrientation="portrait" />
@@ -59,14 +65,13 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".ui.login.LoginActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.register.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".ui.forget.ForgetActivity"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".ui.reset.ResetActivity"
             android:screenOrientation="portrait" />
@@ -78,11 +83,10 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".ui.userinfo.PhoneActivity"
-            android:screenOrientation="portrait"></activity>
-        <activity android:screenOrientation="portrait"
-            android:name=".ui.home.search.SearchActivity">
-
-        </activity>
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.home.search.SearchActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.start.StartPageActivity"
             android:screenOrientation="portrait">
@@ -92,6 +96,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.userinfo.HoldActivity" />
+        <activity android:name=".ui.userinfo.AboutActivity" />
+        <activity android:name=".ui.userinfo.AboutOurActivity"></activity>
     </application>
 
 </manifest>

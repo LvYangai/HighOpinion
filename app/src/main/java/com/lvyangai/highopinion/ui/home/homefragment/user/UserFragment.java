@@ -34,6 +34,9 @@ import com.lvyangai.highopinion.ui.home.homeactivity.HomeActivity;
 import com.lvyangai.highopinion.ui.login.LoginActivity;
 import com.lvyangai.highopinion.ui.register.RegisterActivity;
 import com.lvyangai.highopinion.ui.reset.ResetActivity;
+import com.lvyangai.highopinion.ui.userinfo.AboutActivity;
+import com.lvyangai.highopinion.ui.userinfo.AboutOurActivity;
+import com.lvyangai.highopinion.ui.userinfo.HoldActivity;
 import com.lvyangai.highopinion.ui.userinfo.PhoneActivity;
 import com.lvyangai.highopinion.ui.userinfo.UserInfoActivity;
 import com.lvyangai.highopinion.ui.userinfo.UserResetActivity;
@@ -171,6 +174,18 @@ public class UserFragment extends BaseFragment {
                         intent.setClass(context, PhoneActivity.class);
                         startActivity(intent);
                         break;
+                    case 3:
+                        intent.setClass(context, AboutActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 4:
+                        intent.setClass(context, AboutOurActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 5:
+                        intent.setClass(context, HoldActivity.class);
+                        startActivity(intent);
+                        break;
 
                 }
             }
@@ -207,7 +222,7 @@ public class UserFragment extends BaseFragment {
         dataList.add(new UserItemBean("修改密码",R.mipmap.reset_pass));
         dataList.add(new UserItemBean("修改手机号",R.mipmap.user_phone_icon));
         dataList.add(new UserItemBean("关于软件",R.mipmap.user_about));
-        dataList.add(new UserItemBean("关于我们",R.mipmap.user_about_our));
+        dataList.add(new UserItemBean("关于作者",R.mipmap.user_about_our));
         dataList.add(new UserItemBean("支持作者",R.mipmap.user_zhichi));
         return dataList;
     }

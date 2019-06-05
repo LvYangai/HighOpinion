@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorViewBg">
+
+            <android.support.v7.widget.Toolbar
+                style="@style/AppTheme.Toolbar"
+                android:id="@+id/web_toolbar"
+                app:navigationIcon="?attr/homeAsUpIndicator"
+                app:title="WebView"/>
+            <com.scwang.smartrefresh.layout.SmartRefreshLayout
+                android:id="@+id/web_refreshLayout"
+                android:layout_width="match_parent"
+                app:srlHeaderHeight="25dp"
+                app:srlHeaderMaxDragRate="31"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textColor="#aaa"
+                    android:textSize="16sp"
+                    android:text="下拉刷新"
+                    app:layout_srlSpinnerStyle="FixedBehind"/>
+                <ezy.ui.layout.LoadingLayout
+                    android:id="@+id/web_loading"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <WebView
+                        android:id="@+id/webView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipToPadding="false"
+                        android:paddingTop="?attr/actionBarSize"/>
+                </ezy.ui.layout.LoadingLayout>
+
+            </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</layout>
