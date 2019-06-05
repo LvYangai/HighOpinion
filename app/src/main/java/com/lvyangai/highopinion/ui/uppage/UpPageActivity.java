@@ -51,7 +51,7 @@ public class UpPageActivity extends BaseActivity implements UpPageContract.upPag
     private static final String TAG = "UpPageActivity";
     private ActivityUpPageBinding binding;
     private Context context;
-    List<String> dataset = new LinkedList<>(Arrays.asList("生活","数码","家居","美妆","宠物","电影","其他"));
+    List<String> dataset = new LinkedList<>(Arrays.asList("美食","数码","家居","美妆","宠物","电影","其他"));
     private MediaResultAdapter mAdapter;
     private UpPagePresenter presenter;
     ArrayList<BaseMedia> medias;

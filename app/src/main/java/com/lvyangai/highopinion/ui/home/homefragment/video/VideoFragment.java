@@ -105,6 +105,10 @@ public class VideoFragment extends BaseFragment implements VideoContract.videoVi
 
     @Override
     protected void dataProcess() {
+        dataList = new ArrayList<>();
+        dataList.add(new VideoItemBean.VideoBean(58,false,"admin1","http://106.14.215.7/highopinion/data/uploads/20190424/202a274feff4548308795f46a8b12192.jpg"
+        ,"哪款削皮刀好一点","data/media/20190526/1558891079.mp4","http://106.14.215.7/highopinion/data/uploads/20190527/ca80c730283076c0335565effce41ec4.PNG"
+        ,"05-27",2,5,5));
         linearLayoutManager = new LinearLayoutManager(context);
         binding.rvVideoDetail.setLayoutManager(linearLayoutManager);
         pagerSnapHelper = new PagerSnapHelper();

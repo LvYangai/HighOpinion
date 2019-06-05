@@ -62,7 +62,7 @@ public class HomeFragment extends BaseParentFragment implements View.OnClickList
     private View view;
     private Context context;
     private List<Fragment> fragmentList;
-    private static final String[] CHANNELS = new String[]{"推荐", "近期热门", "生活","数码","家居","美妆","宠物","电影","其他","最新"};
+    private static final String[] CHANNELS = new String[]{"推荐", "近期热门", "美食","数码","家居","美妆","宠物","电影","其他","最新"};
     private List<String> mDataList;
     private SearchFragment searchFragment;
     private ExampleFragmentAdapter homeAdapter;
@@ -85,7 +85,7 @@ public class HomeFragment extends BaseParentFragment implements View.OnClickList
         context = getActivity();
         fragmentList = new ArrayList<>();
         fragmentList.add(new FirstFragment());
-        fragmentList.add(new SecondFragment(1,"热门"));
+        fragmentList.add(new SecondFragment(1,"近期热门"));
         fragmentList.add(new SecondFragment(2,CHANNELS[2]));
         fragmentList.add(new SecondFragment(3,CHANNELS[3]));
         fragmentList.add(new ThirdFragment(4,CHANNELS[4]));

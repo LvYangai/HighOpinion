@@ -155,7 +155,7 @@ public class UserFragment extends BaseFragment {
         binding.fragUserRvMine.setAdapter(adapter);
         if (MyApplication.getStatus()){
             binding.fragUserName.setText(""+MyApplication.getUsername());
-            Glide.with(context).load(MyApplication.getIconUrl()).into(binding.fragUserHeadView);
+            Glide.with(context).load(MyApplication.getIconUrl()).apply(optionsIcon).into(binding.fragUserHeadView);
         }
         intent = new Intent();
         adapter.setOnItemClickListener(new AdapterView.OnItemClickListener() {

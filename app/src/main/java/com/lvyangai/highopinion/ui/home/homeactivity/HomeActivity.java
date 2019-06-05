@@ -10,6 +10,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.View;
 
@@ -41,6 +42,7 @@ public class HomeActivity extends BaseActivity implements HomeContract.homeView,
     private LikeFragment likeFragment;
     private UserFragment userFragment;
     private Fragment mCurFragment = new Fragment();
+    private long mExitTime;
 
     private BottomNavigationView.OnNavigationItemSelectedListener onNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -206,5 +208,25 @@ public class HomeActivity extends BaseActivity implements HomeContract.homeView,
         }
         //更新当前Fragment为targetFragment
         mCurFragment = targetFragment;
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+
+        if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0) {
+            exit();
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
+    }
+
+    public void exit() {
+        if ((System.currentTimeMillis() - mExitTime) > 2000) {
+           ToastUtil.showShortToast("再按一次退出应用");
+            mExitTime = System.currentTimeMillis();
+        } else {
+            finish();
+            System.exit(0);
+        }
     }
 }
