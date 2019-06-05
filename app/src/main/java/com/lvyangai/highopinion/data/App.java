@@ -8,7 +8,7 @@ package com.lvyangai.highopinion.data;
  */
 
 public class App {
-    public static final String IP = "http://192.168.0.4:8088";
+    public static final String IP = "http://106.14.215.7";
     public static final String API_IP = IP+"/highopinion/index.php/api/highopinion/";
     public static final String API_VIDEO = IP+"/highopinion/";
     public static final String APP_PAGE_URL = IP+"/highopinion/";
