@@ -20,3 +20,28 @@ App前端采用MVP设计模式进行开发，后台使用ThinkPHP框架提高系
  - 文章视频可实现收藏评论功能
  - 后台自动对上传文件进行编排
  
+## Demo
+[下载 APK-Demo](https://github.com/LvYangai/HighOpinion/blob/master/art/app-debug.apk)
+
+![](https://github.com/LvYangai/HighOpinion/blob/master/art/appdownload.png?raw=true)
+ 
+#### 项目演示
+
+
+
+## 支持作者
+
+最近开通了支付宝商家，生成了个红包二维码，经常用支付宝的童鞋可有扫码领优惠红包，扫码只会拿红包，不会有任何损失，每天都可以扫码哦！
+
+![支付宝红包](https://github.com/LvYangai/HighOpinion/blob/master/art/hongbao.PNG?raw=true)
+
+> 你也可以在打开支付宝首页搜“664637014”领红包，领到大红包的小伙伴赶紧使用哦！
+如果你经常使用信用卡的话那么使用花呗红包非常适合你，它也和信用卡一样先消费后还款，关键是每天都能扫红包省钱！
+
+如果此项目帮助到了你，请点亮小星星支持，后续有时间将不断完善代码
+
+|支付宝|微信|
+|:---:|:---:|
+|![](https://github.com/LvYangai/HighOpinion/blob/master/art/zhifubao.JPG?raw=true)              |![](https://github.com/LvYangai/HighOpinion/blob/master/art/weixin.JPG?raw=true)|
+
+
