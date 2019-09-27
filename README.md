@@ -26,6 +26,10 @@ App前端采用MVP设计模式进行开发，后台使用ThinkPHP框架提高系
 ![](https://github.com/LvYangai/HighOpinion/blob/master/art/appdownload.png?raw=true)
  
 #### 项目演示
+<img src="https://github.com/LvYangai/HighOpinion/blob/master/art/IMB_MwBpzM.gif" width="350" />   
+<img src="https://github.com/LvYangai/HighOpinion/blob/master/art/IMB_PYW1Re.gif" width="350" />
+<img src="https://github.com/LvYangai/HighOpinion/blob/master/art/IMB_Tx3iPQ.gif" width="350" />
+<img src="https://github.com/LvYangai/HighOpinion/blob/master/art/IMB_V4VToh.gif" width="350" />
 
 
 
